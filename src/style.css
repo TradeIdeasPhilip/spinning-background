@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Playfair Display", serif;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-attachment: fixed;
+  background-image: repeating-conic-gradient(
+    from var(--from-angle) at var(--center-x) var(--center-y),
+    #ffffe0 0turn,
+    #ffffe0 0.0625turn,
+    #ffe0ffff 0.125turn,
+    #ffe0ffff 0.1875turn,
+    #e0ffffff 0.25turn,
+    #e0ffffff 0.3125turn,
+    #f0f0f0 0.375turn,
+    #f0f0f0 0.4375turn,
+    #ffffe0 0.5turn
+  );
+  margin: 8px;
+}
+
+h1,
+h2,
+h3 {
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+.stanza {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  position: relative;
+  transition-property: left;
+  transition-delay: 0.25s;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.31, 0.03, 0.44, 2.08);
+}
+
+.all-stanzas {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  width: fit-content;
+}
