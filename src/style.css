@@ -11,12 +11,12 @@ body {
     from var(--from-angle) at var(--center-x) var(--center-y),
     #ffffe0 0turn,
     #ffffe0 0.0625turn,
-    #ffe0ffff 0.125turn,
-    #ffe0ffff 0.1875turn,
-    #e0ffffff 0.25turn,
-    #e0ffffff 0.3125turn,
-    #f0f0f0 0.375turn,
-    #f0f0f0 0.4375turn,
+    #ffe0e0 0.125turn,
+    #ffe0e0 0.1875turn,
+    #e0e0ff 0.25turn,
+    #e0e0ff 0.3125turn,
+    #fff 0.375turn,
+    #fff 0.4375turn,
     #ffffe0 0.5turn
   );
   margin: 8px;
